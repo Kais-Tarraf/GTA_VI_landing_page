@@ -3,7 +3,7 @@ import ComingSoon from "./ComingSoon";
 const Hero = () => {
 	return (
 		<section className="hero-section">
-			<div className="size-full mask-wrapper">
+			<div className="size-full">
 				<img
 					src="/images/hero-bg.webp"
 					alt="background"
