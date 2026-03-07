@@ -1,3 +1,5 @@
+import ComingSoon from "./ComingSoon";
+
 const Hero = () => {
 	return (
 		<section className="hero-section">
@@ -35,6 +37,7 @@ const Hero = () => {
 			<div className="fake-logo-wrapper">
 				<img src="/images/big-hero-text.svg" className="overlay-logo" />
 			</div>
+			<ComingSoon />
 		</section>
 	);
 };
