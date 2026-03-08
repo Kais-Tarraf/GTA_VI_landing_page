@@ -1,3 +1,4 @@
+import FirstVideo from "./sections/FirstVideo";
 import Hero from "./sections/Hero";
 import NavBar from "./sections/Navbar";
 
@@ -6,6 +7,7 @@ const App = () => {
 		<main>
 			<NavBar />
 			<Hero />
+			<FirstVideo />
 		</main>
 	);
 };
