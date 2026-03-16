@@ -1,5 +1,15 @@
+import FirstVideo from "./sections/FirstVideo";
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
+
 const App = () => {
-	return <main className="text-3xl text-indigo-500 font-extrabold">Hello</main>;
+	return (
+		<main>
+			<Navbar />
+			<Hero />
+			<FirstVideo />
+		</main>
+	);
 };
 
 export default App;
