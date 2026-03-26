@@ -5,7 +5,15 @@ import { useRef } from "react";
 const Final = () => {
 	useGSAP(() => {
 		gsap.set(".final-content", { opacity: 0 });
-
+		gsap.timeline({
+			scrollTrigger: {
+				trigger: ".final",
+				start: "top top",
+				end: "90% top",
+				scrub: true,
+				pin: true,
+			},
+		});
 		const tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: ".final",
