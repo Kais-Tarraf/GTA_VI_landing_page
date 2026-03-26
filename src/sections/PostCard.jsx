@@ -1,7 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
-
 const PostCard = () => {
 	const videoRef = useRef(null);
 	useGSAP(() => {
